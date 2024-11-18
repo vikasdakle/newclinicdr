@@ -58,12 +58,14 @@
         width: 70px;
         height: 70px;
     }
-}
+    
+} 
 
 @media (max-width: 576px) {
     .about-left,
     .about-right {
         min-height: 10vh; /* Further reduce height for very small screens */
+        padding:0px;
     }
 
     .about-content {
@@ -73,6 +75,6 @@
 
     .cir {
         width: 80px;
-        height: 50px;
+        height: 60px;
     } 
 }

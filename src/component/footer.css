@@ -78,3 +78,118 @@
 .icon-circle:hover .facebook-icon {
     background-color: #1877f2; /* Facebook blue on hover */
 }
+
+
+/* Main Footer Styles */
+html {
+    scroll-behavior: smooth;
+  } 
+
+
+
+.footer {
+    background-color: #001f3f;
+    font-family: 'Arial', sans-serif;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1 1 22%; /* Each section takes up about 22% of the width */
+    text-align: center;
+    padding: 10px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer p, .footer .btn-link {
+    font-size: 16px;
+    color: #f8f9fa;
+}
+
+.footer .btn-link:hover {
+    color: #ffdd57;
+}
+
+.footer .text-light {
+    color: #f8f9fa !important;
+}
+
+.footer-phone {
+    font-weight: bold; /* Makes the contact number bold */
+    font-size: 22px; /* Adjust font size for better visibility */
+    color: #ffdd57; /* Highlighted yellow color */
+    margin: 0;
+}
+
+/* Map Component Styling */
+.map-container {
+    width: 100%;
+    max-width: 300px;
+}
+
+.map-container .map-component {
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Footer Copyright */
+.footer .copyright {
+    padding: 15px 0;
+    text-align: center;
+    color: #f8f9fa;
+    font-size: 14px;
+}
+
+.footer .copyright a {
+    text-decoration: none;
+    color: #ffdd57;
+}
+
+.footer .copyright a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .footer-content {
+        flex-direction: column; /* Stack sections vertically on medium screens */
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer h5 {
+        font-size: 16px;
+    } 
+}
+
+@media (max-width: 576px) {
+    .footer p, .footer .btn-link {
+        font-size: 14px;
+    }
+
+    .footer-section {
+        padding: 5px;
+    }
+
+    .map-container .map-component {
+        height: 150px;
+    }}
