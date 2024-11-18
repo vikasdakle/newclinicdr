@@ -38,7 +38,7 @@ const Home = ({ testimonialsRef }) => {
                         <a href="/"
                             className="nav-item nav-link active"
                             style={{
-                                fontSize: "15px",
+                                fontSize: "16px",
                                 backgroundColor: "rgb(244,112,37)", // Choose a color you prefer
                                 color: 'white',
                                 borderRadius: "50px", // Fully rounded

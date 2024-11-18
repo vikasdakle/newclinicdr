@@ -8,10 +8,11 @@ import Whypiles from './Whypiles';
 import Gallery from './Gallery';
 import Footer from './Footer';
 import GalleryTwo from './GalleryTwo';
+import Demo from './Demo';
 
 const About = () => {
     return <>
-        <div className="about-container mt-2">
+        <div className="about-container">
             <div className="row g-0">
                 {/* Left Side */}
                 <div className="col-12 col-md-6 about-left d-flex flex-column justify-content-center align-items-start">
@@ -51,6 +52,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        {/* <Demo /> */}
+
         <Services />
         {/* <Whypiles /> */}
         <GalleryTwo />
