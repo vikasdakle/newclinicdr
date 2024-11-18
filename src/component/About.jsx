@@ -11,7 +11,7 @@ import GalleryTwo from './GalleryTwo';
 
 const About = () => {
     return <>
-        <div className="about-container">
+        <div className="about-container mt-2">
             <div className="row g-0">
                 {/* Left Side */}
                 <div className="col-12 col-md-6 about-left d-flex flex-column justify-content-center align-items-start">
