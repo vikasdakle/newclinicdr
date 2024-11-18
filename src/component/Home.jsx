@@ -42,10 +42,10 @@ const Home = ({ testimonialsRef }) => {
                                 backgroundColor: "rgb(244,112,37)", // Choose a color you prefer
                                 color: 'white',
                                 borderRadius: "50px", // Fully rounded
-                                padding: "5px 10px", // Adjust padding for pill shape
+                                padding: "5px  ", // Adjust padding for pill shape
                                 textAlign: "center",
                             }}>
-                            नाव नोंदणीसाठी संपर्क : +91 8788990261
+                            नोंदणीसाठी संपर्क : +91 8788990261
                             {/* </a> */}
                             {/* <img
                                 className="img img-fluid"
@@ -62,9 +62,9 @@ const Home = ({ testimonialsRef }) => {
                             backgroundColor: "rgb(244,112,37)", // Choose a color you prefer
                             color: "white",
                             borderRadius: "50px", // Fully rounded
-                            padding: "5px 10px", // Adjust padding for pill shape
+                            padding: "5px  ", // Adjust padding for pill shape
                             textAlign: "center",
-                            marginLeft: "10px"
+                            // marginLeft: "10px"
                         }} onClick={() => navigate('/review')}>
                         View Reviews
                     </a>
