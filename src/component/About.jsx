@@ -19,10 +19,10 @@ const About = () => {
                     <div className="about-content sm:p-5 m-5">
                         <blockquote className="blockquote sm:mb-4 fw-bold" style={{ fontSize: '2rem' }}>About Us</blockquote>
                         <blockquote className="blockquote text-start mb-4" style={{ fontSize: '1.25rem' }}>
-                            Dr. Dinesh Jagtap Completed his MBBS and MS (General surgery) from Government Medical College Chhatrapati Sambhajinagar, and worked as Asst. Professor in Department of General Surgery.
+                            Dr. Dinesh Jagtap completed his MBBS and MS (General Surgery) from Government Medical College, Chhatrapati Sambhajinagar, and worked as an Assistant Professor in the Department of General Surgery.
                         </blockquote>
                         <blockquote className="blockquote text-start mb-4">
-                            He served thousands of patients for every year as a Colorectol Consultant in Kamalnayan Bajaj Hospital.
+                            He served thousands of patients for every year as a Colorectal Consultant in Kamalnayan Bajaj Hospital.
                             To reduce the waiting period and to provide Services at affordable cost. he has started his own setup to serve the needy patients.
                         </blockquote>
 
@@ -35,7 +35,7 @@ const About = () => {
                             />
                             <div>
                                 <h5 className="m-0" style={{ fontSize: "25px" }}>Dr. Dinesh Jagtap</h5>
-                                <small style={{ fontSize: "18px" }}>MBBS, MS (Surgery),</small><br />
+                                <small style={{ fontSize: "18px" }}>MBBS, MS, (Surgery)</small><br />
                                 <small style={{ fontSize: "18px" }}>Colorectal Surgeon, Piles Specialist</small>
                             </div>
                         </div>
