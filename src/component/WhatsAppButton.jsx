@@ -1,5 +1,6 @@
 import React from 'react';
-import whatsappIcon from '../assets/whapicon.png'; // Replace with your icon path or URL
+// import whatsappIcon from '../assets/whapicon.png'; // Replace with your icon path or URL
+import whatsappIcon from '../assets/whatsapplogonew.gif'
 
 const WhatsAppButton = () => {
     return (
@@ -24,9 +25,10 @@ const styles = {
         // borderRadius: '50%', // Adds a circular border radius (you can adjust this value for other shapes)
     },
     whatsappIcon: {
-        width: '80px',    // Adjust size as needed
-        height: '80px',
-        borderRadius: "20%",
+        width: '105px',    // Adjust size as needed
+        height: '105px',
+        borderRadius: "50%",
+        backgroundColor: "rgb(244,112,37)",
     },
 };
 

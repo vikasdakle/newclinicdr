@@ -14,7 +14,7 @@ const App = () => {
   const testimonialsRef = useRef(null);
   return <>
 
-    <TeleConsultationButton />
+    {/* <TeleConsultationButton /> */}
     <WhatsAppButton />
     <BrowserRouter>
       <Routes>
