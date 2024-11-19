@@ -1,4 +1,4 @@
-@keyframes blink {
+/* @keyframes blink {
     0% {
         opacity: 1;
     }
@@ -8,4 +8,14 @@
     100% {
         opacity: 1;
     }
+} */
+
+/* @media(max-width:490px){
+.wpsm{
+    height:10px;
+    width:10px;
+    background-Color:yellow;
 }
+} */
+ 
+
