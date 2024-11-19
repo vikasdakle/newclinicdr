@@ -39,7 +39,7 @@ const Home = ({ testimonialsRef }) => {
                     <h1 className="m-0 text-white d-flex align-items-center">
                         {/* <a href="/"> */}
                         <a href="/"
-                            className="nav-item nav-link active"
+                            className="nav-item nav-link active blink"
                             style={{
                                 fontSize: "16px",
                                 backgroundColor: "rgb(244,112,37)", // Choose a color you prefer
@@ -110,7 +110,7 @@ const Home = ({ testimonialsRef }) => {
                 <a href="/" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
                     <h1 className="m-0 text-white">
                         <a href="/"
-                            className="nav-item nav-link active fw-bold"
+                            className="nav-item nav-link active blink fw-bold"
                             style={{
                                 fontSize: "19px",
                                 backgroundColor: "rgb(244,112,37)", // Choose a color you prefer
