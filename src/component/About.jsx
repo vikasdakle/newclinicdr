@@ -22,8 +22,10 @@ const About = () => {
                             Dr. Dinesh Jagtap completed his MBBS and MS (General Surgery) from Government Medical College, Chhatrapati Sambhajinagar, and worked as an Assistant Professor in the Department of General Surgery.
                         </blockquote>
                         <blockquote className="blockquote text-start mb-4">
-                            He served thousands of patients for every year as a Colorectal Consultant in Kamalnayan Bajaj Hospital.
-                            To reduce the waiting period and to provide Services at affordable cost. he has started his own setup to serve the needy patients.
+                            He has served thousands of patients for many years as a colorectal consultant in Kamalnayan Bajaj Hospital.
+                            To reduce the waiting period for treatment and to provide services at an affordable cost, he has started his own setup to serve the needy patients.
+                            {/* He served thousands of patients for every year as a Colorectal Consultant in Kamalnayan Bajaj Hospital.
+                            To reduce the waiting period and to provide Services at affordable cost. he has started his own setup to serve the needy patients. */}
                         </blockquote>
 
                         <div className="d-flex align-items-center mt-5 gap-3">

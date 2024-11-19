@@ -3,10 +3,12 @@ import herohomepdimg from '../assets/herohomepdimg.jpg';
 import bglogoremove from '../assets/newlogoOne.jpeg';
 import newheroimgOne from '../assets/newheroimgOne.jpg';
 import newdoctor from '../assets/newdoctor.png';
-import newherocanva from '../assets/newchangehero.jpg'
+import newherocanva from '../assets/newherobigscreen.jpg'
+// import newherocanva from '../assets/newchangehero.jpg'
 // import newherocanva from '../assets/newheroOnecanva.jpg';
 import './home.css';  // Make sure the CSS file is correctly linked
-import mobileimg from '../assets/newheromobilelast.jpg'
+import mobileimg from '../assets/newherosmallscreen.jpg'
+// import mobileimg from '../assets/newheromobilelast.jpg'
 // import mobileimg from '../assets/newchangeheromobile.jpg'
 // import mobileimg from '../assets/spinehospitalmobile.jpg';
 import { Link, useNavigate } from 'react-router-dom';

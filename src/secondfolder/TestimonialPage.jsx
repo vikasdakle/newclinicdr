@@ -383,6 +383,9 @@ const TestimonialPage = () => (
                         <FaStar color="#FFD700" size={20} /> */}
                     </h2>
                 </div>
+                <div className="col-md-12  d-flex justify-content-center position-relative align-items-center" style={{ zIndex: 2 }}>
+                    <h2>"Patient satisfaction is our biggest achievement"</h2>
+                </div>
             </header>
 
             <div className="container py-5">
